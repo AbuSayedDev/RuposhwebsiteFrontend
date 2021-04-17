@@ -1,0 +1,510 @@
+
+ /*
+    * Project Name: Ruposhalam
+    * Project Athor: Abu Sayed 
+    * Project Date:24-09-2020
+    * All Section:
+        1. home page
+            1. nav-wrapper
+            2. content-wrapper
+            3. company-logo-info
+            4. footer-wrapper
+
+*/ 
+  
+  
+/*================================>  
+        Common css start 
+<================================== */
+.card {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.navbar{
+    padding: .5rem 0px;
+}
+/*================================>  
+        Home page css start 
+<================================== */
+
+/**********> nav-wrapper <************/
+
+.nav-wrapper{
+    position: -webkit-sticky;
+    position: sticky;
+    top: -15px;
+    z-index:25;
+    background: #171d1d40;
+}
+.navbar {
+    font-weight: 300;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.nav-wrapper .navbar-nav .nav-item{
+    padding-right: 15px;
+}
+.nav-wrapper .navbar-nav .nav-item .nav-link{
+    font-size: 18px;
+    font-family:'SFProDisplayRegular';
+    padding-bottom: 0px;
+}
+.nav-wrapper .navbar-nav .nav-item .nav-link:hover{
+    color:#00C3FF !important;
+}
+.dropdown-menu {
+    background-color: #ffffff0a;
+}
+.navbar .dropdown-menu a {
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.31);
+    color: #fff !important;
+}
+.navbar .dropdown-menu a:last-child{
+    border-bottom: none;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #f8f9fa30;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav{
+        margin-right: 0!important;
+    }
+    .login-icon-area{
+        margin-left: 0 !important;
+    }
+}
+
+/**********> header-wrapper <************/
+
+.header-wrapper{
+    width: 100%;
+    height: 1079px;
+    position: relative;
+    background-image: url(../img/Homepageheaderimage2.jpg);
+    background-size: cover;
+    background-repeat: round;
+    background-position: top;
+}
+
+.header-logo-img, .header-website-link, .header-text{
+    text-align: end;
+}
+.header-logo-img {
+    margin-top: 90px;
+}
+.header-website-link{
+    position: relative;
+}
+.header-website-link h2::after{
+    width: 202px;
+    height: 4px;
+    background-color: #fff;
+    position: absolute;
+    content: '';
+    bottom: -11px;
+    right: 0;
+}
+.header-text p{
+    font-size: 13px;
+    line-height: 15px;
+    color: #ffffff8a;
+}
+.header-text{
+    padding: 80px 0 0 0;
+}
+.header-icon-area{
+    margin-top: 100px;
+}
+.header-icon-area a {
+    font-size: 17px;
+    border-radius: 9px;
+    line-height: 10px;
+    padding: 6px;
+    border: 2px solid #fff;
+    color: #fff;
+    margin: 10px;
+}
+.header-icon-area a .fab{
+    width: 20px;
+    height: 15px;
+    line-height: 0;
+    text-align: center;
+}
+.header-icon-area a:nth-of-type(1){
+    border: 3px solid #7A4CFE;
+    color: #7A4CFE;
+    box-shadow: 0px 0px 15px 0px #7531C45E;
+}
+.header-icon-area a:nth-of-type(2){
+    border: 2px solid #DF084B;
+    color: #DF084B;
+    box-shadow: 0px 0px 15px 0px #df084b57;
+}
+.header-icon-area a:nth-of-type(3){
+    border: 2px solid #3E5EF6;
+    color: #3E5EF6;
+    box-shadow: 0px 0px 15px 0px #3E5EF65E;
+}
+.header-icon-area a:nth-of-type(4){
+    border: 2px solid #00E101;
+    color: #00E101;
+    box-shadow: 0px 0px 15px 0px #00e1013d;
+}
+.header-icon-area a:nth-of-type(5){
+    border: 2px solid #FF367F;
+    color: #FF367F;
+    box-shadow: 0px 0px 15px 0px #FF367F4D
+}
+.header-icon-area a:nth-of-type(6){
+    border: 2px solid #FF7F00;
+    color: #FF6701;
+    box-shadow: 0px 0px 15px 0px #FF7F004F;
+}
+.header-icon-area a:nth-of-type(7){
+    border: 2px solid #FE57FF;
+    color: #FE57FF;
+    box-shadow: 0px 0px 15px 0px #FE57FF52;
+}
+.header-icon-area a:nth-of-type(8){
+    border: 2px solid #13C8FE;
+    color: #13C8FE;
+    box-shadow: 0px 0px 15px 0px #13C8FE45;
+}
+.header-icon-area a:nth-of-type(9){
+    border: 2px solid #10CEFF;
+    color: #10CEFF;
+    box-shadow: 0px 0px 15px 0px #10CEFF4A;
+}
+
+@media (max-width: 768px) {
+    .header-icon-area a {
+        margin: 5px;
+    }
+}
+@media (max-width: 414px) {
+    .header-icon-area a {
+        padding: 0px;
+    }
+}
+/**********> content-wrapper <************/
+.content-wrapper{
+    width: 100%;
+    height: auto;
+    background: #171d1d;
+    position: relative;
+}
+.content-area{
+    width: 100%;
+    height: 725px;
+    position: relative;
+    background-image: url(../img/HomePuterimage.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.company-info{
+    margin-top: 190px;
+    position: relative;
+}
+.content-wrapper-text .ccustombtn{
+    background-color: #fff !important;
+    color: #000;
+    padding: .4rem 1.14rem;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+/**********> company-logo-info <************/
+.custom-col {
+    max-width: 13.667%;
+}
+.company-info-img{
+    border: 2px solid #9194946e;
+    padding: 8px;
+}
+.company-logo-info img{
+    max-width: 100%;
+    height: 95px;
+    object-fit: cover;
+}
+
+.custom-colten {
+    position: relative;
+    top: -49px;
+    left: -76px;
+}
+.custom-colfirst{
+    left: 278px;
+}
+.custom-colfirst-secondsec{
+    top: -57px;
+}
+.custom-col-first-last{
+    top: 90px;
+}
+
+@media (max-width: 768px) {
+    .custom-col {
+        max-width: 16.666667%;
+    }
+    .company-logo-info img {
+        height: 55px;
+    }
+    .company-info {
+        margin-top: 110px;
+    }
+    .content-area{
+        height: 525px;
+    }
+    .custom-colten {
+        top: -9px;
+        left: -10px;
+    }
+}
+@media (max-width: 414px) {
+    .content-area{
+        height: 725px;
+    }
+    .custom-col {
+        max-width: 25%;
+    }
+    .custom-colten {
+        top: 0px;
+        left: 0px;
+    }
+    .custom-colfirst{
+        left: 0px;
+    }
+    .custom-colfirst-secondsec{
+        top: 0px;
+    }
+    .custom-col-first-last{
+        top: 0px;
+    }
+}
+
+/**********> footer-wrapper <************/
+.footer-wrapper{
+    background-color: #000;
+    color: #fff;
+}
+
+.foter-copy-content-info  p{
+    color: #ffffff8f;
+}
+
+
+/*============================================>  
+        Company Profile page css start 
+<============================================ */
+.company-profile-wrapper{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.company-profile-wrapper::after{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    content: '';
+    bottom:0;
+    left: 0;
+    background-image: url(../img/LiftSideDesign.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    z-index: -1;
+}
+.company-profile-wrapper::before{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    content: '';
+    bottom:0;
+    right: 0;
+    background-image: url(../img/RightSideDesign.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: -1;
+}
+.company-profile-logo{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.company-profile-logo img{
+    max-width: 100%;
+    height: auto;
+    margin-top:-16px;
+}
+.company-profile-logo::after{
+    width: 100%;
+    height: 208px;
+    position: absolute;
+    content: '';
+    top: -19px;
+    left: -120px;
+    background-image: url(../img/Logolight.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    z-index: -1;
+}
+
+.company-profile-header{
+    padding:100px 0px 20px 0;
+}
+.company-profile-text p{
+    text-align: end;
+    color: #ffffff91;
+    line-height: 19px;
+    font-size: 14px;
+}
+
+/* company-profile-content */
+ /* .company-profile-content{
+    position: relative;
+}
+.company-profile-card-area{
+    margin:10px
+} */
+
+ .card-body{
+    background: #171d1d !important;
+    color:#fff;
+    padding: 1.25rem 0;
+}
+
+ .card-title{
+    color: #FF8600;
+    font-size: 18px;
+    margin-top: 5px;
+}
+ .card-text{
+    color:#fff !important;
+    margin-bottom: 0;
+}
+
+
+.card-title-area a {
+    font-size: 11px;
+    border-radius: 100%;
+    line-height: 21px;
+    padding: 7px;
+    color: #fff;
+    margin: 0px;
+    background: #E4003E !important;
+    text-align: center;
+}
+.card-title-area a .far{
+    width: 13px;
+    height: 20px;
+    line-height: 10px;
+    text-align: center;
+}.card-title-area a:nth-of-type(2){
+    background-color: #7c7c7c !important;
+}
+.card-title-area a:nth-of-type(3){
+    background-color: #53ACAA !important;
+}
+
+.page-item a{
+    color:#fff !important;
+}
+.pagination.pagination-circle .page-item .page-link {
+    border: 2px solid #ffffff91;
+    width: 35px;
+    height: 36px;
+    text-align: center;
+    margin: 7px;
+    line-height: 32px;
+    padding-top: 0;
+}
+.pagination.pagination-circle .page-item .page-link:hover {
+    background-color: #ffffff4f !important;
+} 
+
+/* gallery */
+#gallery {
+    padding-top: 40px;
+  }
+  @media screen and (min-width: 991px) {
+    #gallery {padding: 60px 30px 0 30px;}
+  }
+
+  .img-wrapper {
+    position: relative;}
+
+.img-wrapper img {
+      width: 100%;
+      height: 220px;
+    }
+
+  .img-overlay {
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;}
+.img-overlay i {
+      color: #fff;
+      font-size: 1.5em;
+    }
+  
+  #overlay {
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    filter: blur(1px);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    -webkit-user-select: none;
+    -moz-user-select: none;    
+    -ms-user-select: none; 
+    user-select: none; }
+#overlay img {
+      margin: 0;
+      width: 80%;
+      height: auto;
+      object-fit: contain;
+      padding: 5%;}
+
+  #nextButton {
+    color: #fff;
+    transition: opacity 0.8s;}
+#nextButton :hover {
+      opacity: 0.7;
+    }
+  
+  #prevButton {
+    color: #fff;
+    transition: opacity 0.8s;}
+#prevButton:hover {
+      opacity: 0.7;
+    }
+  
+  #exitButton {
+    color: #fff;
+    transition: opacity 0.8s;
+    position: absolute;
+    top: 15px;
+    right: 15px;}
+
+#exitButton:hover {
+      opacity: 0.7;
+    }

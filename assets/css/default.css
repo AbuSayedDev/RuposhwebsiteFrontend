@@ -1,0 +1,53 @@
+
+
+
+@font-face{
+  src: url(../font/FontsFree-Net-SFProDisplay-Regular.ttf);
+  font-family:'SFProDisplayRegular';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scrollbar-width: thin;
+  scrollbar-color: #728390;
+}
+
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: #728390;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #728390;
+  border-radius: 20px;
+  border: 3px solid #728390;
+}
+
+@media (min-width: 1200px) {
+  .nav-container {
+      max-width: 1220px !important;
+  }
+}
+
+body {
+  background: #171d1d;
+  font-family:'SFProDisplayRegular';
+  font-size:16px;
+  font-style:normal;
+}
+
+a{
+  font-size: 14px;
+  text-decoration: none;
+  color: #171d1d;
+  transition: .5s;
+}
+h1, h2, h3, h4{
+  color: #171d1d;
+}
+p{
+  font-size:14px;
+}
